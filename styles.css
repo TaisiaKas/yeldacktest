@@ -1,0 +1,246 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-family: Rubik;
+	font-size: 12px;
+	color: #616161;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+html{
+    background: url(https://i.yapx.ru/Sn86j.png);
+    background-repeat: no-repeat;
+    background-color: #065b92;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    max-height: 660px;
+    min-width: 800px;
+    -ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+    display: flex;
+    justify-content: center;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+/*--------------------*/
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-width: 700px;
+    width: 75%;
+    margin: 0 auto;
+}
+/*--------------------*/
+.header{
+    position: relative;
+    display: flex;
+    min-width: 900px;
+    height: 82px;
+    justify-content: flex-end;
+}
+.logo{
+    position: relative;
+    justify-content: end;
+    width: 16%;
+    padding-right: 12%;
+}
+.logo img{
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+    min-width: 250px;
+    min-height: 250px;
+}
+/*--------------------*/
+.aqualunger{
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    top: 150px;
+    left: -120px;
+    animation: aqualunger 25s linear alternate 0s infinite;
+}
+/*--------------------*/
+[class*="__container"]{
+    min-height: 600px;
+    width: 90%;
+}
+.content__container{
+    display: flex;
+    position: relative;
+    padding-left: 4%;
+    min-width: 900px;
+    max-width: 1100px;
+    height: 630px;
+}
+/*--------------------*/
+.description__container{
+    position: relative;
+    width: 65%;
+    height: 100%;
+    display: flex;
+}
+/*--------------------*/
+.text__container{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+.stripes{
+    position: relative;
+    display: flex;
+
+}
+.stripes img{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    left: 20%;
+    min-width: 450px;
+}
+.inscription{
+    position: relative;
+    min-width: 430px;
+    height: 90%;
+    right: 350px;  
+    top: 30px; 
+}
+.smallins{
+    position: relative;
+    width: 40%;
+    height: 35%;
+    min-width: 220px;
+    transform: rotate(49deg);
+    right: 880px;  
+    bottom: 22px;
+}
+/*--------------------*/
+.yelstones__container{
+    display: flex;
+    flex-direction: column;
+    min-width: 330px;
+}
+.yeldack{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    transform: scale(-1, 1);
+    justify-content: center;
+}
+.stones{
+    height: 20%;
+    display: flex;
+    width: 140%;
+    min-width: 10px;
+}
+/*--------------------*/
+.stoneabout{
+    position: relative;
+    width: 30%;
+    min-width: 150px;
+    right: 15px;
+    height: 220%;
+    bottom: 150px;
+    background: url(https://i.yapx.ru/Sn853.png);
+    background-size: cover;
+    z-index: 5;
+}
+.stoneabout:hover{
+    background: url(https://i.yapx.ru/Sn86a.png);
+    background-size: cover;
+}
+.stoneabout:active {
+    background: url(https://i.yapx.ru/Sn86a.png);
+    background-size: cover;
+	bottom: 170px;
+	}
+/*--------------------*/
+.stonebuy{
+    position: relative;
+    width: 60%;
+    max-width: 200px;
+    height: 223%;
+    bottom: 135px;
+    right: 85px;
+    background: url(https://i.yapx.ru/Sn86c.png);
+    background-size: cover;
+    z-index: 5;
+}
+.stonebuy:hover{
+    background: url(https://i.yapx.ru/Sn86d.png);
+    background-size: cover;
+    right: 100px;
+}
+.stonebuy:active {
+    background: url(https://i.yapx.ru/Sn86d.png);
+    background-size: cover;
+	bottom: 170px;
+	}
+/*--------------------*/
+.stonegallery{
+    position: relative;
+    min-width: 150px;
+    height: 249%;
+    bottom: 155px;
+    right: 135px;
+    background: url(https://i.yapx.ru/Sn86e.png);
+    background-size: cover;
+    z-index: 3;
+}
+.stonegallery:hover{
+    background: url(https://i.yapx.ru/Sn86f.png);
+    background-size: cover;
+}
+.stonegallery:active {
+    background: url(https://i.yapx.ru/Sn86f.png);
+    background-size: cover;
+	bottom: 170px;
+	}
+/*--------------------*/
+.stand{
+    position: relative;
+    height: 10%;
+    min-width: 200px;
+}
+.stand img{
+    position: relative;
+    width: 150%;
+    bottom: 350px;
+    right: 90px;
+    max-height: 500px;
+}
+

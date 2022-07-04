@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+    html{
+        background-size: 100% 100%;
+        min-height: 500px;
+    }
+    .aqualunger{
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    html{
+        background: url(https://i.yapx.ru/Sn9NL.png);
+        height: 95%;
+        min-width: 1%;
+        background-repeat: no-repeat;
+        background-color: #05568b;
+        background-size: 100% 90%;
+    }
+}

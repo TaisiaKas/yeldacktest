@@ -175,16 +175,16 @@ html{
     right: 15px;
     height: 220%;
     bottom: 150px;
-    background-image: url(../images/1.webp);
+    background-image: url(images/1.webp);
     background-size: cover;
     z-index: 5;
 }
 .stoneabout:hover{
-    background-image: url(../images/1а.webp);
+    background-image: url(images/1а.webp);
     background-size: cover;
 }
 .stoneabout:active {
-    background-image: url(../images/1а.webp);
+    background-image: url(images/1а.webp);
     background-size: cover;
 	bottom: 170px;
 	}
@@ -217,16 +217,16 @@ html{
     height: 249%;
     bottom: 155px;
     right: 135px;
-    background-image: url(../images/3.webp);
+    background-image: url(images/3.webp);
     background-size: cover;
     z-index: 3;
 }
 .stonegallery:hover{
-    background-image: url(../images/3а.webp);
+    background-image: url(images/3а.webp);
     background-size: cover;
 }
 .stonegallery:active {
-    background-image: url(../images/3а.webp);
+    background-image: url(images/3а.webp);
     background-size: cover;
 	bottom: 170px;
 	}

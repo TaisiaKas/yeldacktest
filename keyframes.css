@@ -201,7 +201,7 @@
     background-size: cover;
     width: 65px;
     height: 29px;
-    left: 2200px;
+    left: 2500px;
     transform: scale(-1, 1);
     animation: fish7 40s linear 10s infinite;
     -webkit-animation: fish7 40s linear 10s infinite;
@@ -212,7 +212,7 @@
     background-size: cover;
     width: 79px;
     height: 39px;
-    left: 2200px;
+    left: 2500px;
     transform: scale(-1, 1);
     animation: fish8 40s linear 13s infinite;
     -webkit-animation: fish8 40s linear 13s infinite;
@@ -255,7 +255,7 @@
     width: 35px;
     height: 22px;
     transform: scale(-1, 1);
-    left: 2200px;
+    left: 2500px;
     animation: fish7 45s linear 25s infinite;
     -webkit-animation: fish7 45s linear 25s infinite;
 }
@@ -275,7 +275,7 @@
     background-size: cover;
     width: 105px;
     height: 60px;
-    left: 2200px;
+    left: 2500px;
     transform: scale(-1, 1);
     animation: fish14 35s linear 35s infinite;
     -webkit-animation: fish14 35s linear 35s infinite;
@@ -286,7 +286,7 @@
     background-size: cover;
     width: 125px;
     height: 60px;
-    left: 2200px;
+    left: 2500px;
     transform: scale(-1, 1);
     animation: fish15 55s linear 25s infinite;
     -webkit-animation: fish15 55s linear 25s infinite;

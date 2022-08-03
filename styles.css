@@ -45,10 +45,10 @@ html{
 }
 /*--------------------*/
 .no-webp body {
-    background-image: url(images/bg001.png);
+    background-image: url(images/backgWF.png);
 }
 .webp body{
-    background-image: url(img/bg001.webp);
+    background-image: url(img/backgWF.webp);
 }
 body{
     background-repeat: no-repeat;
@@ -74,37 +74,38 @@ body{
 .header{
     position: relative;
     display: flex;
-    min-width: 900px;
+    min-width: 1000px;
+    max-width: 1200px;
     height: 82px;
     justify-content: flex-end;
+}
+.no-webp .logo {
+    background-image: url(images/price.png)
+}
+.webp .logo{
+    background-image: url(img/price.webp)
 }
 .logo{
     position: relative;
     justify-content: end;
-    width: 16%;
-    padding-right: 12%;
-}
-.logo picture{
-    position: relative;
-    bottom: 15px;
-    width: 100%;
-    min-width: 250px;
-    min-height: 250px;
-}
-.logo img{
-    position: relative;
-    bottom: 15px;
-    width: 100%;
-    min-width: 250px;
-    min-height: 250px;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
 }
 /*--------------------*/
+.no-webp .aqualunger {
+    background-image: url(images/aqualunger.png)
+}
+.webp .aqualunger{
+    background-image: url(img/aqualunger.webp)
+}
 .aqualunger{
     position: absolute;
-    width: 250px;
-    height: 180px;
+    background-size: cover;
+    width: 220px;
+    height: 141px;
     top: 150px;
-    left: -120px;
+    left: -180px;
     animation: aqualunger 25s linear alternate 0s infinite;
 }
 /*--------------------*/

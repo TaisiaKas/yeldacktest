@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YelDack</title>
+    <script src="modernizr-custom.js"></script>
     <link rel="icon" href="https://i.yapx.ru/Sn86z.png" type="image/x-icon">
     <link rel = "stylesheet" href = "styles.css">
     <link rel = "stylesheet" href = "reset.css">
@@ -34,8 +35,13 @@
 
         <div class="header">
             <div class="logo">
-                <img src= "https://i.yapx.ru/Sn86w.png" alt="label"/>
-            </div>
+            <picture>
+                <source srcset="img/с ценой.webp" type="image/webp">
+                <source srcset="images/с ценой.png" type="image/jpeg">
+
+                <img src= "images/с ценой.png" alt="label"/>
+            </picture>
+        </div>
         </div>
 
         <div class="content__container">

@@ -38,7 +38,19 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 html{
-    background: url(https://i.yapx.ru/Sn86j.png);
+    -ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*--------------------*/
+.no-webp body {
+    background-image: url(images/bg001.png);
+}
+.webp body{
+    background-image: url(img/bg001.webp);
+}
+body{
     background-repeat: no-repeat;
     background-color: #065b92;
     background-size: cover;
@@ -46,12 +58,8 @@ html{
     background-attachment: fixed;
     max-height: 660px;
     min-width: 800px;
-    -ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
     display: flex;
     justify-content: center;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     overflow: hidden;
 }
 /*--------------------*/
@@ -75,6 +83,13 @@ html{
     justify-content: end;
     width: 16%;
     padding-right: 12%;
+}
+.logo picture{
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+    min-width: 250px;
+    min-height: 250px;
 }
 .logo img{
     position: relative;
@@ -168,6 +183,24 @@ html{
     min-width: 10px;
 }
 /*--------------------*/
+.no-webp .stoneabout {
+    background-image: url(images/1.png);
+}
+.webp .stoneabout{
+    background-image: url(img/1.webp);
+}
+.no-webp .stoneabout:hover {
+    background-image: url(images/1а.png);
+}
+.webp .stoneabout:hover{
+    background-image: url(img/1а.webp);
+}
+.no-webp .stoneabout:active {
+    background-image: url(images/1а.png);
+}
+.webp .stoneabout:active{
+    background-image: url(img/1а.webp);
+}
 .stoneabout{
     position: relative;
     width: 30%;
@@ -175,16 +208,13 @@ html{
     right: 15px;
     height: 220%;
     bottom: 150px;
-    background-image: url(images/1.webp);
     background-size: cover;
     z-index: 5;
 }
 .stoneabout:hover{
-    background-image: url(images/1а.webp);
     background-size: cover;
 }
 .stoneabout:active {
-    background-image: url(images/1а.webp);
     background-size: cover;
 	bottom: 170px;
 	}
@@ -217,16 +247,16 @@ html{
     height: 249%;
     bottom: 155px;
     right: 135px;
-    background-image: url(images/3.webp);
+    background-image: url(img/3.webp);
     background-size: cover;
     z-index: 3;
 }
 .stonegallery:hover{
-    background-image: url(images/3а.webp);
+    background-image: url(img/3а.webp);
     background-size: cover;
 }
 .stonegallery:active {
-    background-image: url(images/3а.webp);
+    background-image: url(img/3а.webp);
     background-size: cover;
 	bottom: 170px;
 	}

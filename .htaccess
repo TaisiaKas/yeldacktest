@@ -50,4 +50,5 @@ ExpiresDefault "access plus 1 month"
 <FilesMatch "\.(html|php|txt|xml|js|css)$">
 SetOutputFilter DEFLATE
 </FilesMatch>
+deny from all
 </IfModule>

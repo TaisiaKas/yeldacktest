@@ -133,18 +133,15 @@ body{
     display: flex;
     min-width: 400px;
 }
-.no-webp .stripes {
-    background-image: url(images/12345679007859595.gif)
-}
-.webp .stripes{
-    background-image: url(img/12345679007859595.webp)
-}
 .stripes{
     position: relative;
     display: flex;
     min-width: 450px;
     height: 606px;
     background-size: cover;
+    overflow: hidden;
+    z-index: -100;
+    border-radius: 60px;
 }
 /*--------------------*/
 .no-webp .inscription {

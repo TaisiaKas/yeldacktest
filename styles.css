@@ -56,8 +56,8 @@ body{
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    max-height: 660px;
-    min-width: 800px;
+    min-height: 660px;
+    min-width: 1000px;
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -66,16 +66,13 @@ body{
 .wrapper{
     display: flex;
     flex-direction: column;
-    min-width: 700px;
-    width: 75%;
-    margin: 0 auto;
+    min-width: 800px;
 }
 /*--------------------*/
 .header{
     position: relative;
     display: flex;
-    min-width: 1000px;
-    max-width: 1200px;
+    min-width: 1100px;
     height: 82px;
     justify-content: flex-end;
 }
@@ -91,6 +88,7 @@ body{
     width: 250px;
     height: 250px;
     background-size: cover;
+    bottom: 20px;
 }
 /*--------------------*/
 .no-webp .aqualunger {
@@ -98,15 +96,6 @@ body{
 }
 .webp .aqualunger{
     background-image: url(img/aqualunger.webp)
-}
-.aqualunger{
-    position: absolute;
-    background-size: cover;
-    width: 220px;
-    height: 141px;
-    top: 150px;
-    left: -180px;
-    animation: aqualunger 25s linear alternate 0s infinite;
 }
 /*--------------------*/
 [class*="__container"]{
@@ -116,164 +105,249 @@ body{
 .content__container{
     display: flex;
     position: relative;
-    padding-left: 4%;
-    min-width: 900px;
-    max-width: 1100px;
-    height: 630px;
+    min-width: 870px;
+    width: 70%;
+    height: 680px;
+    left: 190px;
+}
+/*--------------------*/
+.aqualunger{
+    position: absolute;
+    background-size: cover;
+    width: 220px;
+    height: 141px;
+    top: 100px;
+    z-index: 50;
+    left: -270px;
+ /*--   animation: aqualunger 25s linear alternate 0s infinite; --*/
 }
 /*--------------------*/
 .description__container{
     position: relative;
-    width: 65%;
-    height: 100%;
+    width: 55%;
     display: flex;
 }
 /*--------------------*/
 .text__container{
     position: relative;
-    width: 80%;
-    height: 100%;
     display: flex;
+    min-width: 400px;
+}
+.no-webp .stripes {
+    background-image: url(images/12345679007859595.gif)
+}
+.webp .stripes{
+    background-image: url(img/12345679007859595.webp)
 }
 .stripes{
     position: relative;
     display: flex;
-
-}
-.stripes img{
-    position: relative;
-    width: 80%;
-    height: 100%;
-    left: 20%;
     min-width: 450px;
+    height: 606px;
+    background-size: cover;
+}
+/*--------------------*/
+.no-webp .inscription {
+    background-image: url(images/inscription.png)
+}
+.webp .inscription{
+    background-image: url(img/inscription.webp) 
 }
 .inscription{
     position: relative;
+    display: flex;
+    background-size: cover;
     min-width: 430px;
-    height: 90%;
-    right: 350px;  
+    height: 560px;
+    right: 398px;  
     top: 30px; 
 }
+/*--------------------*/
+.no-webp .smallins{
+    background-image: url(images/smallins.png)
+}
+.webp .smallins{
+    background-image: url(img/smallins.webp) 
+}
 .smallins{
-    position: relative;
-    width: 40%;
-    height: 35%;
-    min-width: 220px;
+    position: absolute;
+    display: flex;
+    background-size: cover;
+    min-width: 250px;
+    height: 187px;
     transform: rotate(49deg);
-    right: 880px;  
-    bottom: 22px;
+    left: -100px;
+    top: -5px;
+    z-index: 5;
 }
 /*--------------------*/
 .yelstones__container{
+    position: relative;
     display: flex;
     flex-direction: column;
-    min-width: 330px;
+    min-width: 280px;
+    width: 45%;
+    height: 400px;
+    top: 40px;
 }
-.yeldack{
+/*--------------------*/
+.no-webp .yeldack{
+    background-image: url(images/yeldack.gif)
+}
+.webp .yeldack{
+    background-image: url(img/yeldack.webp)
+}
+
+.yeldack__container{
     position: relative;
     display: flex;
-    width: 100%;
-    height: 80%;
-    transform: scale(-1, 1);
     justify-content: center;
 }
+/*--------------------*/
+.yeldack{
+    position: relative;
+    background-size: cover;
+    transform: scale(-1, 1);
+    width: 250px;
+    height: 467px;  
+    left: 20px; 
+}                       
 .stones{
-    height: 20%;
+    position: relative;
+    justify-content: center;
     display: flex;
-    width: 140%;
-    min-width: 10px;
+    width: 100%;
+    bottom: 240px;
+    left: 50px;
 }
 /*--------------------*/
-.no-webp .stoneabout {
+/*--------------------*/
+.no-webp #stoneabout {
     background-image: url(images/1.png);
 }
-.webp .stoneabout{
+.webp #stoneabout{
     background-image: url(img/1.webp);
 }
-.no-webp .stoneabout:hover {
+.no-webp #stoneabout:hover {
     background-image: url(images/1а.png);
 }
-.webp .stoneabout:hover{
+.webp #stoneabout:hover{
     background-image: url(img/1а.webp);
 }
-.no-webp .stoneabout:active {
+.no-webp #stoneabout:active {
     background-image: url(images/1а.png);
 }
-.webp .stoneabout:active{
+.webp #stoneabout:active{
     background-image: url(img/1а.webp);
 }
-.stoneabout{
+#stoneabout{
     position: relative;
-    width: 30%;
-    min-width: 150px;
-    right: 15px;
-    height: 220%;
-    bottom: 150px;
+    width: 33%;
+    min-width: 140px;
+    height: 160px;
     background-size: cover;
     z-index: 5;
+    bottom: 50px;
 }
-.stoneabout:hover{
+#stoneabout:hover{
     background-size: cover;
 }
-.stoneabout:active {
+#stoneabout:active {
     background-size: cover;
-	bottom: 170px;
 	}
 /*--------------------*/
-.stonebuy{
+.no-webp #stonebuy {
+    background-image: url(images/2.png);
+}
+.webp #stonebuy{
+    background-image: url(img/2.webp);
+}
+.no-webp #stonebuy:hover {
+    background-image: url(images/2а.png);
+}
+.webp #stonebuy:hover{
+    background-image: url(img/2а.webp);
+}
+.no-webp #stonebuy:active {
+    background-image: url(images/2а.png);
+}
+.webp #stonebuy:active{
+    background-image: url(img/2а.webp);
+}
+#stonebuy{
     position: relative;
-    width: 60%;
-    max-width: 200px;
-    height: 223%;
-    bottom: 135px;
-    right: 85px;
-    background: url(https://i.yapx.ru/Sn86c.png);
+    width: 33%;
+    min-width: 185px;
+    height: 150px;
     background-size: cover;
     z-index: 5;
+    bottom: 30px;
+    right: 55px;
 }
-.stonebuy:hover{
-    background: url(https://i.yapx.ru/Sn86d.png);
+#stonebuy:hover{
     background-size: cover;
-    right: 100px;
 }
-.stonebuy:active {
-    background: url(https://i.yapx.ru/Sn86d.png);
+#stonebuy:active {
     background-size: cover;
-	bottom: 170px;
 	}
 /*--------------------*/
-.stonegallery{
-    position: relative;
-    min-width: 150px;
-    height: 249%;
-    bottom: 155px;
-    right: 135px;
+.no-webp #stonegallery {
+    background-image: url(images/3.png);
+}
+.webp #stonegallery{
     background-image: url(img/3.webp);
+}
+.no-webp #stonegallery:hover {
+    background-image: url(images/3а.png);
+}
+.webp #stonegallery:hover{
+    background-image: url(img/3а.webp);
+}
+.no-webp #stonegallery:active {
+    background-image: url(images/3а.png);
+}
+.webp #stonegallery:active{
+    background-image: url(img/3а.webp);
+}
+#stonegallery{
+    position: relative;
+    width: 34%;
+    min-width: 160px;
+    height: 170px;
     background-size: cover;
     z-index: 3;
+    bottom: 60px;
+    right: 100px;
 }
-.stonegallery:hover{
-    background-image: url(img/3а.webp);
+#stonegallery:hover{
+
     background-size: cover;
 }
-.stonegallery:active {
-    background-image: url(img/3а.webp);
+#stonegallery:active {
+
     background-size: cover;
-	bottom: 170px;
 	}
 /*--------------------*/
+/*--------------------*/
+.no-webp .standimg{
+    background-image: url(images/stand.png)
+}
+.webp .standimg{
+    background-image: url(img/stand.webp)
+}
 .stand{
     position: relative;
-    height: 10%;
-    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    bottom: 660px;
 }
-.stand img{
-    position: relative;
-    width: 150%;
-    bottom: 350px;
-    right: 90px;
-    max-height: 500px;
+
+.standimg{
+    background-size: cover;
+    min-width: 600px;
+    height: 600px;
 }
+/*--------------------*/
 
  
 

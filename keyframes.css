@@ -1,10 +1,19 @@
 @-webkit-keyframes aqualunger{
     0%{
-        left: -190px;
-        top: 10px;
+        top: -170px;
+        left: -270px;
+    }
+    20%{
+        top: -30px;
+        left: -330px;
+    }
+    30%{
+        top: 50px;
+        left: -270px;
     }
     100%{
-        top: 350px;
+        top: 200px;
+        left: -700px;
     }
 }
 @-webkit-keyframes fisht{

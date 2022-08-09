@@ -1,19 +1,76 @@
-@media screen and (max-width: 768px) {
-    html{
-        background-size: 100% 100%;
-        min-height: 500px;
-    }
+@media screen and (max-width: 767.98px) {
+
     .aqualunger{
         display: none;
     }
-}
-@media screen and (max-width: 480px) {
-    html{
-        background: url(https://i.yapx.ru/Sn9NL.png);
-        height: 95%;
-        min-width: 1%;
-        background-repeat: no-repeat;
-        background-color: #05568b;
-        background-size: 100% 90%;
+    [class*="__container"]{
+        min-height: 650px;
+
     }
+    .header{
+        min-width: 600px;
+    }
+}
+@media screen and (max-width: 320px) {
+    body{
+        background-image: none !important;
+    }
+    .mobile_bgr{
+        position: absolute;
+        width: 100%;
+        min-width: 300px;
+        height: 60%;
+        max-height: 427px;
+        display: flex;
+        top: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+    .header{
+        min-width: 300px;
+    }
+    .logo{
+        position: relative;
+
+        bottom: 45px;
+        right: 130px;
+    }
+    .buymob{
+        display: flex;
+        position: relative;
+        background-size: cover;
+        width: 250px;
+        height: 144px;
+        right: 90px;
+        bottom: 30px;
+    }
+    .stripes{
+        display: none;
+    }
+    .inscription{
+        display: none;
+    }
+    .yeldack{
+        display: none;
+    }
+    .stones{
+        display: none;
+    }
+    .stand{
+        display: none;
+    }
+    .yelstones__container{
+        display: none;
+    }
+
+    .smallins{
+        display: flex;
+        position: fixed;
+        min-width: 350px;
+        height: 262px;
+        left: 500px;
+        top: 60px;
+        transform: rotate(53deg);
+    }
+
 }

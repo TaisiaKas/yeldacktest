@@ -52,7 +52,7 @@ html{
 }
 body{
     background-repeat: no-repeat;
-    background-color: #065b92;
+    background-color: #00639e;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -67,6 +67,9 @@ body{
     display: flex;
     flex-direction: column;
     min-width: 800px;
+}
+.mobile_bgr{
+    display: none;
 }
 /*--------------------*/
 .header{
@@ -90,6 +93,15 @@ body{
     background-size: cover;
     bottom: 20px;
 }
+.no-webp .buymob {
+    background-image: url(images_mob/buymob.png);
+}
+.webp .buymob{
+    background-image: url(img_mob/buymob.webp);
+}
+.buymob{
+    display: none;
+}
 /*--------------------*/
 .no-webp .aqualunger {
     background-image: url(images/aqualunger.png)
@@ -100,7 +112,6 @@ body{
 /*--------------------*/
 [class*="__container"]{
     min-height: 600px;
-    width: 90%;
 }
 .content__container{
     display: flex;
@@ -119,7 +130,7 @@ body{
     top: 100px;
     z-index: 50;
     left: -270px;
- /*--   animation: aqualunger 25s linear alternate 0s infinite; --*/
+    animation: aqualunger 35s linear alternate 0s infinite; 
 }
 /*--------------------*/
 .description__container{

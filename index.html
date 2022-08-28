@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YelDack</title>
     <script src="modernizr-custom.js"></script>
-    <link rel="icon" href="https://i.yapx.ru/Sn86z.png" type="image/x-icon">
+    <link rel="icon" href="images/елдак фав.png" type="image/x-icon">
     <link rel = "stylesheet" type="text/css" href = "styles.css">
     <link rel = "stylesheet" type="text/css" href = "reset.css">
     <link rel = "stylesheet" type="text/css" href = "media.css">
@@ -14,13 +14,6 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="mobile_bgr">
-            <picture>
-                <source srcset="img_mob/backmob.webp" type="image/webp">
-                <source srcset="images_mob/backmob.gif" type="image/jpeg"> 
-                <img src="images_mob/backmob.gif" alt="Alt Text!">
-              </picture>
-        </div>
 <!--      <div id= "animate__fish">
         <div class="fish1"></div>
         <div class="fish2"></div>
@@ -40,10 +33,17 @@
        </div> --> 
 
         <div class="header">
-            <div class="buymob"></div>
             <div class="logo"></div>
         </div>
-
+        <div class="yeldackastones">
+            <div class="yeldackmob"></div>
+            <div class="stonesmob">
+                <a id="stoneaboutmob" href="https://www.google.com"></a>
+                <a id="stonebuymob" href="https://www.google.com"></a>
+                <a id="stonegallerymob" href="https://www.google.com"></a>
+            </div>
+            <div class="standmob"></div>
+        </div>
         <div class="content__container">
             
             <div class="aqualunger"></div>
@@ -76,5 +76,13 @@
 
         </div>   
     </div>
+    <script>
+              document.getElementById('stoneaboutmob').addEventListener('click', function() {
+
+         navigator.vibrate(500);
+
+        });
+
+        </script>
 </body>
 </html>

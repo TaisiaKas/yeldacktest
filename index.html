@@ -11,6 +11,15 @@
     <link rel = "stylesheet" type="text/css" href = "reset.css">
     <link rel = "stylesheet" type="text/css" href = "media.css">
     <link rel = "stylesheet" type="text/css" href = "keyframes.css">
+    <style>
+              .hidden
+
+{
+
+    display: none;
+
+}
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -31,9 +40,10 @@
         <div class="fish14"></div>
         <div class="fish15"></div>
        </div> --> 
-
+     
         <div class="header">
             <div class="logo"></div>
+            <span id="v-unsupported" class="hidden">Вибрация не поддерживается</span>
         </div>
         <div class="yeldackastones">
             <div class="yeldackmob"></div>
@@ -77,11 +87,27 @@
         </div>   
     </div>
     <script>
-              document.getElementById('stoneaboutmob').addEventListener('click', function() {
+      window.navigator = window.navigator || {};
 
-         navigator.vibrate(500);
+if (navigator.vibrate === undefined) {
 
-        });
+    document.getElementById('v-unsupported').classList.remove('hidden');
+
+    ['logo'].forEach(function(elementId) {
+
+      document.getElementById(elementId).setAttribute('disabled', 'disabled');
+
+    });
+
+} else {
+
+    document.getElementById('logo').addEventListener('click', function() {
+
+      navigator.vibrate(500);
+
+    });
+
+}
 
         </script>
 </body>

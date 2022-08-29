@@ -52,7 +52,7 @@ html{
 }
 body{
     background-repeat: no-repeat;
-    background-color: #00639e;
+    background-color: #045185;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -67,9 +67,7 @@ body{
     display: flex;
     flex-direction: column;
     min-width: 800px;
-}
-.mobile_bgr{
-    display: none;
+    margin: 0 auto;
 }
 /*--------------------*/
 .header{
@@ -79,27 +77,21 @@ body{
     height: 82px;
     justify-content: flex-end;
 }
-.no-webp .logo {
+.no-webp #logo {
     background-image: url(images/price.png)
 }
-.webp .logo{
+.webp #logo{
     background-image: url(img/price.webp)
 }
-.logo{
+#logo{
     position: relative;
-    justify-content: end;
     width: 250px;
     height: 250px;
     background-size: cover;
     bottom: 20px;
 }
-.no-webp .buymob {
-    background-image: url(images_mob/buymob.png);
-}
-.webp .buymob{
-    background-image: url(img_mob/buymob.webp);
-}
-.buymob{
+/*--------------------*/
+.yeldackastones{
     display: none;
 }
 /*--------------------*/
@@ -221,7 +213,6 @@ body{
     transform: scale(-1, 1);
     width: 250px;
     height: 467px;  
-    left: 20px; 
 }                       
 .stones{
     position: relative;

@@ -42,7 +42,7 @@
        </div> --> 
      
         <div class="header">
-            <button id="logo"></button>
+            <div class="logo"></div>
             <span id="v-unsupported" class="hidden">Вибрация не поддерживается</span>
         </div>
         <div class="yeldackastones">
@@ -57,7 +57,7 @@
         <div class="content__container">
             
             <div class="aqualunger"></div>
-          
+                                                                    
                        <div class="description__container">
                            <div class="smallins"></div> 
                            <div class="text__container">
@@ -73,7 +73,7 @@
                       
                      
                        <div class="stones">
-                          <a id="stoneabout" href="https://www.google.com"></a>
+                        <button id="stoneabout"><a href="https://www.google.com"></a></button>
                           <a id="stonebuy" href="https://www.google.com"></a>
                           <a id="stonegallery" href="https://www.google.com"></a>               
                        </div> 
@@ -93,7 +93,7 @@ if (navigator.vibrate === undefined) {
 
     document.getElementById('v-unsupported').classList.remove('hidden');
 
-    ['logo'].forEach(function(elementId) {
+    ['stoneabout'].forEach(function(elementId) {
 
       document.getElementById(elementId).setAttribute('disabled', 'disabled');
 
@@ -101,9 +101,9 @@ if (navigator.vibrate === undefined) {
 
 } else {
 
-    document.getElementById('logo').addEventListener('click', function() {
+    document.getElementById('stoneabout').addEventListener('click', function() {
 
-      navigator.vibrate(500);
+      navigator.vibrate(2500);
 
     });
 

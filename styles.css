@@ -77,13 +77,13 @@ body{
     height: 82px;
     justify-content: flex-end;
 }
-.no-webp #logo {
+.no-webp .logo {
     background-image: url(images/price.png)
 }
-.webp #logo{
+.webp .logo{
     background-image: url(img/price.webp)
 }
-#logo{
+.logo{
     position: relative;
     width: 250px;
     height: 250px;
@@ -250,6 +250,7 @@ body{
     background-size: cover;
     z-index: 5;
     bottom: 50px;
+    background-color: transparent;
 }
 #stoneabout:hover{
     background-size: cover;
